@@ -1,0 +1,17 @@
+# Core LangChain + OpenAI
+langchain==0.3.21
+langchain-community==0.3.20
+langchain-openai==0.3.11
+openai==1.69.0
+tiktoken==0.9.0
+
+# Vector Store & Embeddings
+chromadb==0.6.3
+pypdf==3.17.4
+
+# Interface utilisateur
+streamlit==1.44.0
+python-dotenv==1.1.0
+
+
+pysqlite3-binary
