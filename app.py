@@ -12,7 +12,7 @@ from langchain.document_loaders import PyPDFLoader, TextLoader, Docx2txtLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 # Utilisation de st.secrets pour récupérer les clés
-OPENAI_API_KEY = st.secrets["openai_api_key"]
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
 
 # Mise en page Streamlit
